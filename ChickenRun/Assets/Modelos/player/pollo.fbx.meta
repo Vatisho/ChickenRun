@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 39b5a073d16e124459066a136da6cfe8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: pollo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pollo_Start1:Pollo
+      parentName: pollo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: pollo(Clone)
+      position: {x: 10.000999, y: 0, z: 0}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIP
+      parentName: pollo(Clone)
+      position: {x: -0, y: 0.14899111, z: -0.0075537395}
+      rotation: {x: 0.08980721, y: 0.7013818, z: 0.08980689, w: 0.70137936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: HIP
+      position: {x: -0.08496706, y: -0.019272253, z: -2.032898e-17}
+      rotation: {x: -0.000000040978193, y: -0.000000029802322, z: -0.30281675, w: 0.9530488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: joint9
+      position: {x: -0.034371283, y: 0.031436898, z: -5.9610804e-18}
+      rotation: {x: 0, y: 0, z: -0.040657647, w: 0.99917316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: Head
+      position: {x: -0.17423442, y: 4.8849813e-17, z: -2.3342916e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Menchon_2
+      parentName: joint6
+      position: {x: 0.008875956, y: -0.0058887647, z: -0.0053794626}
+      rotation: {x: 0, y: 0, z: 0.42436624, w: 0.9054907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint16
+      parentName: Menchon_2
+      position: {x: -0.057192296, y: 6.2006895e-17, z: 0.008784114}
+      rotation: {x: 0.18209425, y: -0.6832582, z: 0.18209425, w: 0.6832582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechon_1
+      parentName: joint6
+      position: {x: 0.011466917, y: -0.0014653397, z: -0.0057044504}
+      rotation: {x: 0, y: 0, z: 0.1028522, w: 0.9946967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint18
+      parentName: Mechon_1
+      position: {x: -0.07184871, y: 0.02779755, z: 0.024200559}
+      rotation: {x: 0.396739, y: -0.58531886, z: 0.396739, w: 0.58531886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ala_L
+      parentName: joint9
+      position: {x: -0.0068713967, y: 0.04223025, z: -0.07918784}
+      rotation: {x: -0.27023813, y: 0.82736754, z: -0.15702277, w: -0.46666706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: Ala_L
+      position: {x: -0.12925911, y: 0.0011474045, z: 0.034075025}
+      rotation: {x: 0.23737514, y: 0.66607285, z: -0.23737514, w: 0.66607285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint9
+      position: {x: -0.0068712574, y: 0.04223022, z: 0.079187796}
+      rotation: {x: 0.8273662, y: 0.27023855, z: 0.46666887, w: -0.15702389}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: 0.12925869, y: -0.0011475716, z: -0.0340752}
+      rotation: {x: 0.23737514, y: 0.66607285, z: -0.23737513, w: 0.66607285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_L
+      parentName: HIP
+      position: {x: 0.00095817476, y: 0.010020443, z: -0.03731249}
+      rotation: {x: 0.44258237, y: 0.5420331, z: -0.52890885, w: -0.4801839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: Leg_L
+      position: {x: -0.1327278, y: 0, z: 0}
+      rotation: {x: 0.61216104, y: 0.35391933, z: -0.35391933, w: 0.61216104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: joint2
+      position: {x: -0.036891416, y: 8.881784e-18, z: 1.4791142e-33}
+      rotation: {x: -0.18260445, y: -0.683122, z: -0.18260445, w: 0.683122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: HIP
+      position: {x: 0.0009577356, y: 0.010020528, z: 0.0373125}
+      rotation: {x: -0.5420329, y: 0.44258255, z: -0.48018414, w: 0.52890855}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint13
+      parentName: joint12
+      position: {x: 0.1327282, y: -1.7763568e-17, z: 6.661338e-18}
+      rotation: {x: 0.61216104, y: 0.35391933, z: -0.35391933, w: 0.61216104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint14
+      parentName: joint13
+      position: {x: 0.036891412, y: 0.00000005470226, z: 1.7763568e-17}
+      rotation: {x: -0.18260445, y: -0.683122, z: -0.18260445, w: 0.683122}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

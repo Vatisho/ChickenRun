@@ -18,7 +18,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -80,7 +81,112 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: estatico_7(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pollo_Start1:Pollo
+      parentName: estatico_7(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: estatico_7(Clone)
+      position: {x: 10.000999, y: 0, z: 0}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIP
+      parentName: estatico_7(Clone)
+      position: {x: -0, y: 0.14899111, z: -0.0075537395}
+      rotation: {x: 0.089428864, y: 0.6984272, z: 0.09018359, w: 0.70432156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: HIP
+      position: {x: -0.08496706, y: -0.019272253, z: -2.032898e-17}
+      rotation: {x: 0.0057200077, y: 0.0032439227, z: -0.30279133, w: 0.95303416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: joint9
+      position: {x: -0.034371283, y: 0.031436898, z: -5.9610804e-18}
+      rotation: {x: 0, y: -0, z: -0.040657647, w: 0.99917316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: Head
+      position: {x: -0.17423442, y: 4.8849813e-17, z: -2.3342916e-17}
+      rotation: {x: -0.06725917, y: -0.110765785, z: 0.010554719, w: 0.9915119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Menchon_2
+      parentName: joint6
+      position: {x: 0.008875956, y: -0.0058887647, z: -0.0053794626}
+      rotation: {x: 0, y: 0, z: 0.42436624, w: 0.9054907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint16
+      parentName: Menchon_2
+      position: {x: -0.057192296, y: 6.2006895e-17, z: 0.008784114}
+      rotation: {x: 0.18209425, y: -0.6832582, z: 0.18209425, w: 0.6832582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mechon_1
+      parentName: joint6
+      position: {x: 0.011466917, y: -0.0014653397, z: -0.0057044504}
+      rotation: {x: 0, y: 0, z: 0.10285221, w: 0.9946967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint18
+      parentName: Mechon_1
+      position: {x: -0.07184871, y: 0.02779755, z: 0.024200559}
+      rotation: {x: 0.39673898, y: -0.58531886, z: 0.39673898, w: 0.58531886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ala_L
+      parentName: joint9
+      position: {x: -0.0068713967, y: 0.04223025, z: -0.07918784}
+      rotation: {x: -0.26479477, y: 0.82759166, z: -0.15915328, w: -0.46866417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: Ala_L
+      position: {x: -0.12925911, y: 0.0011474045, z: 0.034075025}
+      rotation: {x: 0.23737513, y: 0.66607285, z: -0.23737513, w: 0.66607285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint9
+      position: {x: -0.0068712574, y: 0.04223022, z: 0.079187796}
+      rotation: {x: 0.8271397, y: 0.27563962, z: 0.46462098, w: -0.15488727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: 0.12925869, y: -0.0011475716, z: -0.0340752}
+      rotation: {x: 0.23737514, y: 0.66607285, z: -0.23737513, w: 0.66607285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_L
+      parentName: HIP
+      position: {x: 0.00095817476, y: 0.010020443, z: -0.03731249}
+      rotation: {x: -0.4426964, y: -0.54193264, z: 0.5288056, w: 0.4803057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: Leg_L
+      position: {x: -0.1327278, y: 0, z: 0}
+      rotation: {x: 0.61216104, y: 0.35391933, z: -0.35391933, w: 0.61216104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: joint2
+      position: {x: -0.036891416, y: 8.881784e-18, z: 1.4791142e-33}
+      rotation: {x: -0.18260445, y: -0.683122, z: -0.18260445, w: 0.683122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: HIP
+      position: {x: 0.0009577356, y: 0.010020528, z: 0.0373125}
+      rotation: {x: -0.54213274, y: 0.44246998, z: -0.48006102, w: 0.5290121}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint13
+      parentName: joint12
+      position: {x: 0.1327282, y: -1.7763568e-17, z: 6.661338e-18}
+      rotation: {x: 0.61216104, y: 0.35391933, z: -0.35391933, w: 0.61216104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint14
+      parentName: joint13
+      position: {x: 0.036891412, y: 0.00000005470226, z: 1.7763568e-17}
+      rotation: {x: -0.18260445, y: -0.683122, z: -0.18260445, w: 0.683122}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -95,7 +201,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
